@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/treno.jpg);
+    background-size: cover;
+}
+
+header{
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    color: white;
+    background-color: black;
+}
+
+.formLine{
+    margin-bottom: 2rem;
+}
+
+.formLine input{
+    width: 100%;
+}
+
+
+
+
+.formContainer{
+    
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+.submitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+    color: white;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.submitButton{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.formLine label{
+    font-weight: bolder;
+}
+
+.submitter:hover{
+    background-color: black;
+}
+
+.submitter:hover .submitButton{
+    color: white;
+}
+
+.responseContainer{
+    width: 10%;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.responseContainer h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.responseContainer h1{
+    border-bottom: 2px solid black;
+}
+
+#tckpricer{
+    color: yellow;
+}

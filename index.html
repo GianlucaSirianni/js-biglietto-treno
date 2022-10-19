@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Ticket</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>FIND THE PRICE OF YOUR TRAIN TICKET IN JUST A MINUTE!!</h1>
+    </header>
+    <div class="formContainer">
+        <form>
+            <div class="formLine">
+                <label for="">Age:</label>
+                <input type="text" id="age" name="age" placeholder="What's your age?">
+            </div>
+            <div class="formLine">
+                <label for="">Kilometers needed:</label>
+                <input type="text" id="km" name="km" placeholder="How many Kilometers you plan on doing?">
+            </div>
+            <div class="formLine submitter">
+                <a class="submitButton" href="#" onclick="submitForm()"> Find your ticket price</a>   
+            </div>
+        </form>
+    </div>
+
+<div class="responseContainer">
+    <h2> The price of your ticket is: </h2>
+    <h1 id="tckpricer">
+    </h1>
+</div>
+
+
+    <!-- script Javascript -->
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+</body>
+
+</html>
