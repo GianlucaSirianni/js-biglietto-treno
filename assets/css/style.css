@@ -45,7 +45,7 @@ header{
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    width: 150px;
+    width: 200px;
     height: 40px;
     border-radius: 10px;
     border: 2px solid black;
@@ -62,7 +62,7 @@ header{
 }
 
 .formLine label{
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .submitter:hover{
